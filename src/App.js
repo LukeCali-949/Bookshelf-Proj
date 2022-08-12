@@ -66,7 +66,7 @@ function App() {
   };
   return (
     <>
-      <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-max ">
+      <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-[100%] w-[1900px] ">
         <AddBookSection onClick={formButtonHandler} />
         <RectangleList bookList={bookList} clickBook={bookInfoModalHandler} />
         {bookInfoModalisVisible && (
